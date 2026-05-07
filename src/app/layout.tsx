@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -8,8 +9,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Twoje Imię | Portfolio 3D",
-  description: "Developer React & Next.js - Projekty 3D i interaktywne mapy",
+  title: "Stanisław | Portfolio 2026",
+  description: "Creative Developer - 3D Experiences & React Engineering",
 };
 
 export default function RootLayout({
@@ -18,8 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pl" className={geistSans.variable}>
-      <body className="antialiased">
+    <html lang="pl" className={`${geistSans.variable} scroll-smooth`}>
+      <body className="antialiased bg-black text-white">
+        <Navbar />
         {children}
       </body>
     </html>
