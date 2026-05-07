@@ -6,7 +6,7 @@ export default function Home() {
           <h1 className="text-5xl font-bold tracking-tighter">
             PROJEKTY <span className="text-zinc-500">2026</span>
           </h1>
-          <p className="text-zinc-400 mt-2 font-mono">React + TypeScript + Three.jssss</p>
+          <p className="text-zinc-400 mt-2 font-mono">React + TypeScript + Three.js</p>
         </header>
 
         {/* Tu zaraz powstanie Twój Grid z filmami */}
