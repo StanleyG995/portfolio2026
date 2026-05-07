@@ -13,7 +13,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-40 px-6 max-w-6xl mx-auto text-center">
-      <h2 className="text-zinc-500 uppercase text-xs tracking-[0.3em] mb-8">Zbudujmy coś razem</h2>
+      <h2 className="text-zinc-500 uppercase text-xs tracking-[0.3em] mb-8">Let's build something together.</h2>
       
       <div className="group relative inline-block">
         <button 
@@ -31,7 +31,7 @@ export default function Contact() {
       <div className="mt-24 flex justify-center gap-12 text-zinc-500 font-mono text-sm">
   <a href="https://linkedin.com/in/twoj-profil" className="hover:text-white transition-colors">LinkedIn</a>
   <a href="https://github.com/twoj-github" className="hover:text-white transition-colors">GitHub</a>
-  <a href="/Stanislaw_G_CV.pdf" target="_blank" className="hover:text-blue-400 transition-colors border-b border-zinc-800">Pobierz CV</a>
+  <a href="/Stanislaw_G_CV.pdf" target="_blank" className="hover:text-blue-400 transition-colors border-b border-zinc-800">Download CV</a>
 </div>
     </section>
   );
