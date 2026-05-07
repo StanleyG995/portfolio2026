@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-white dark:bg-black text-black dark:text-white;
+  /* To ustawia kolory tekstu, ale tło zaraz nadpiszemy */
+  @apply bg-black text-white; 
+  
+  /* Twój gradient - używamy !important, żeby wygrać z klasami Tailwinda */
+  background: radial-gradient(circle at 50% 0%, #0d244e 0%, #000000 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Wygładzanie czcionek wrzucamy do html, żeby objęło całą stronę */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
