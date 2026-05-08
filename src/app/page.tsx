@@ -1,4 +1,6 @@
 import Navbar from "@/components/Navbar";
+import About from "@/components/About";
+import TechStack from "@/components/TechStack";
 import Contact from "@/components/Contact";
 import ProjectCard from "@/components/ProjectCard";
 
@@ -52,7 +54,7 @@ export default function Home() {
       {/* SECTION: WORK */}
       <section id="work" className="py-20 px-6 max-w-6xl mx-auto">
         <div className="flex justify-between items-end mb-12">
-          <h2 className="text-3xl font-bold italic text-white">Selected Works</h2>
+          <h2 className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-4">01. Work</h2>
           <span className="text-zinc-600 font-mono text-sm">/ 001 — 003</span>
         </div>
 
@@ -80,7 +82,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <About/>
+      <TechStack/>
       <Contact/>
     </div>
   );
