@@ -14,7 +14,6 @@ export default function Work() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          {/* Rząd 1: Szafa (Duża) + Mapa (Mała) */}
           <div className="md:col-span-8">
             <ProjectCard 
               title="3D Wardrobe Configurator" 
@@ -29,8 +28,6 @@ export default function Work() {
               videoSrc="/videos/mapa.mp4" 
             />
           </div>
-
-          {/* Rząd 2: CRM (Mały) + Portfolio (Duże) */}
           <div className="md:col-span-4">
             <ProjectCard 
               title="Business Dashboard" 

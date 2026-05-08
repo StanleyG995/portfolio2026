@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: "Stanisław G. | Creative Developer",
     description: "Bridging the gap between precise design and modern code.",
-    images: [{ url: '/og-image.png' }], // Zrób screena strony i wrzuć do public/
+    images: [{ url: '/og-image.png' }],
   },
 }
 

@@ -4,7 +4,6 @@ export default function Hero() {
   return (
 <section id="home" className="min-h-[70vh] grid grid-cols-1 lg:grid-cols-12 items-center px-6 max-w-6xl mx-auto pt-20">
         
-        {/* Lewa strona: Tekst (8 kolumn) */}
         <div className="lg:col-span-8 flex flex-col justify-center">
           <div className="flex flex-col mb-6">
             <span className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-2">
@@ -24,8 +23,7 @@ export default function Hero() {
             <span className="text-white">Frontend Developer</span> with a 7-year background in visual design. Building on years of experience with WordPress, I am now focused on creating performant web applications using React and Next.js. My goal is to bridge the gap between precise design and functional, modern code.
           </p>
         </div>
-
-        {/* Prawa strona: Floating Stats (4 kolumny) */}
+    
         <div className="hidden lg:flex lg:col-span-4 flex-col gap-12 border-l border-zinc-900/50 pl-12 h-fit">
           <div className="group">
             <span className="block text-4xl font-bold italic text-zinc-200 group-hover:text-blue-500 transition-colors duration-300">8y</span>

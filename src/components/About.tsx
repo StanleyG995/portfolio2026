@@ -3,13 +3,13 @@ import React from 'react'
 export default function About() {
   return (
     <section id="about" className="relative py-24 bg-black/40 overflow-hidden">
-      {/* Subtelny blask w tle */}
+  
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           
-          {/* LEWA KOLUMNA: Tekstowa historia */}
+        
           <div className="lg:col-span-7 space-y-8">
             <div>
               <h2 className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-4">
@@ -39,7 +39,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* PRAWA KOLUMNA: Twoje "Supermoce" (Grid) */}
           <div className="lg:col-span-5 grid grid-cols-1 gap-4">
             <div className="bg-zinc-900/40 border border-zinc-800 p-8 rounded-3xl backdrop-blur-md">
               <h4 className="text-white font-bold mb-2">Design Maturity</h4>

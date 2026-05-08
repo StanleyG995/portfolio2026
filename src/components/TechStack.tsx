@@ -6,21 +6,21 @@ const stack = [
     tools: ["Figma", "Adobe Suite", "Visual Hierarchy", "Prototyping", "Motion"],
     badge: "8 Years Exp.",
     accent: "text-amber-500/80",
-    dot: "bg-amber-500/80" // Dodajemy pełną klasę bg
+    dot: "bg-amber-500/80"
   },
   {
     category: "Modern Frontend",
     tools: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Three.js",],
     badge: "Current Focus",
     accent: "text-blue-500",
-    dot: "bg-blue-500" // Dodajemy pełną klasę bg
+    dot: "bg-blue-500"
   },
   {
     category: "Web Ecosystem",
     tools: ["Hosting", "WordPress", "SEO", "Performance"],
     badge: "6 Years Exp.",
     accent: "text-emerald-500/80",
-    dot: "bg-emerald-500/80" // Dodajemy pełną klasę bg
+    dot: "bg-emerald-500/80"
   }
 ]
 
@@ -52,7 +52,6 @@ export default function TechStack() {
                     key={tool}
                     className="text-zinc-400 group-hover:text-zinc-200 transition-colors duration-300 flex items-center text-base"
                   >
-                    {/* Używamy nowej właściwości item.dot zamiast replace */}
                     <div className={`w-1.5 h-1.5 rounded-full mr-3 ${item.dot}`} />
                     {tool}
                   </li>
