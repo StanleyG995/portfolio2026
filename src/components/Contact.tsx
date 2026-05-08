@@ -12,7 +12,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-40 px-6 mx-auto text-center bg-black">
+    <section id="contact" className="py-40 px-6 mx-auto text-center bg-black/40">
       <h2 className="text-zinc-500 uppercase text-xs tracking-[0.3em] mb-8">Let's build something together.</h2>
       
       <div className="group relative inline-block">

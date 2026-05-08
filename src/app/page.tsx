@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
 
       {/* SECTION: HERO */}
-      <section id="home" className="min-h-[90vh] grid grid-cols-1 lg:grid-cols-12 items-center px-6 max-w-6xl mx-auto pt-20">
+      <section id="home" className="min-h-[90vh] grid grid-cols-1 lg:grid-cols-12 items-center px-6 max-w-6xl mx-auto pt-20 bg-black/">
         
         {/* Lewa strona: Tekst (8 kolumn) */}
         <div className="lg:col-span-8 flex flex-col justify-center">

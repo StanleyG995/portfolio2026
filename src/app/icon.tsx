@@ -11,15 +11,15 @@ export default function Icon() {
       <div
         style={{
           fontSize: 24,
-          background: 'black', // Tło pasujące do Twojej strony
+          background: 'black',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: '#3b82f6', // Twój niebieski akcent (blue-500)
+          color: '#3b82f6',
           fontWeight: 900,
-          borderRadius: '20%', // Lekko zaokrąglony kwadrat
+          borderRadius: '20%',
         }}
       >
         S
