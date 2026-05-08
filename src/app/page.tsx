@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
 
       {/* SECTION: HERO */}
-      <section id="home" className="min-h-[90vh] grid grid-cols-1 lg:grid-cols-12 items-center px-6 max-w-6xl mx-auto pt-20 bg-black/">
+      <section id="home" className="min-h-[70vh] grid grid-cols-1 lg:grid-cols-12 items-center px-6 max-w-6xl mx-auto pt-20">
         
         {/* Lewa strona: Tekst (8 kolumn) */}
         <div className="lg:col-span-8 flex flex-col justify-center">
@@ -30,7 +30,6 @@ export default function Home() {
 
           <p className="max-w-2xl text-zinc-400 text-lg md:text-xl leading-relaxed font-light">
             <span className="text-white">Frontend Developer</span> with a 7-year background in visual design. Building on years of experience with WordPress, I am now focused on creating performant web applications using React and Next.js. My goal is to bridge the gap between precise design and functional, modern code.
-            
           </p>
         </div>
 
@@ -54,11 +53,15 @@ export default function Home() {
       {/* SECTION: WORK */}
       <section id="work" className="py-20 px-6 max-w-6xl mx-auto">
         <div className="flex justify-between items-end mb-12">
-          <h2 className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-4">01. Work</h2>
-          <span className="text-zinc-600 font-mono text-sm">/ 001 — 003</span>
+          <div>
+            <h2 className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-2">01. Work</h2>
+            <p className="text-zinc-500 text-xs uppercase tracking-widest">Selected Projects</p>
+          </div>
+          <span className="text-zinc-600 font-mono text-sm">/ 001 — 004</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
+          {/* Rząd 1: Szafa (Duża) + Mapa (Mała) */}
           <div className="md:col-span-8">
             <ProjectCard 
               title="3D Wardrobe Configurator" 
@@ -73,7 +76,16 @@ export default function Home() {
               videoSrc="/videos/mapa.mp4" 
             />
           </div>
-          <div className="md:col-span-12">
+
+          {/* Rząd 2: CRM (Mały) + Portfolio (Duże) */}
+          <div className="md:col-span-4">
+            <ProjectCard 
+              title="Business Dashboard" 
+              tags={["React Table", "Auth", "Charts"]}
+              videoSrc="/videos/crm.mp4" 
+            />
+          </div>
+          <div className="md:col-span-8">
             <ProjectCard 
               title="The 2026 Portfolio" 
               tags={["Next.js 15", "Tailwind v4", "Framer"]}
@@ -82,6 +94,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <About/>
       <TechStack/>
       <Contact/>
