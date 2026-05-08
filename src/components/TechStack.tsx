@@ -4,7 +4,7 @@ const stack = [
   {
     category: "Design & UX",
     tools: ["Figma", "Adobe Suite", "Visual Hierarchy", "Prototyping", "Motion"],
-    badge: "7 Years Exp.",
+    badge: "8 Years Exp.",
     accent: "text-amber-500/80",
     dot: "bg-amber-500/80" // Dodajemy pełną klasę bg
   },
