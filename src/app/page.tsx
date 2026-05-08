@@ -37,7 +37,7 @@ export default function Home() {
         {/* Prawa strona: Floating Stats (4 kolumny) */}
         <div className="hidden lg:flex lg:col-span-4 flex-col gap-12 border-l border-zinc-900/50 pl-12 h-fit">
           <div className="group">
-            <span className="block text-4xl font-bold italic text-zinc-200 group-hover:text-blue-500 transition-colors duration-300">7y</span>
+            <span className="block text-4xl font-bold italic text-zinc-200 group-hover:text-blue-500 transition-colors duration-300">8y</span>
             <span className="text-[14px] uppercase tracking-[0.3em] text-zinc-600 font-mono">Design Experience</span>
           </div>
           <div className="group">
