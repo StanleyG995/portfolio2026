@@ -8,10 +8,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Stanisław | Portfolio 2026",
-  description: "Creative Developer - 3D Experiences & React Engineering",
-};
+export const metadata = {
+  title: "Stanisław G. | Creative Developer & Designer",
+  description: "8 years of design, 6 years of web dev. Now building high-end interfaces with Next.js and Three.js.",
+  openGraph: {
+    title: "Stanisław G. | Creative Developer",
+    description: "Bridging the gap between precise design and modern code.",
+    images: [{ url: '/og-image.png' }], // Zrób screena strony i wrzuć do public/
+  },
+}
 
 export default function RootLayout({
   children,
@@ -27,3 +32,4 @@ export default function RootLayout({
     </html>
   );
 }
+
