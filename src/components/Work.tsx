@@ -28,7 +28,7 @@ export default function Work() {
           <ProjectCard
             title="Apartment Finder"
             tags={["Interactive SVG", "Next.js"]}
-            videoSrc="/developer-thumbnail.webp"
+            videoSrc="/developer-thumbnail.webm"
           />
         </div>
       </div>
