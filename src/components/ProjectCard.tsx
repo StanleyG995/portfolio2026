@@ -67,7 +67,7 @@ export default function ProjectCard({ title, tags, videoSrc, projectStatus, gith
 
       
       {(github || live) && (
-        <div className="px-6 pb-6 pt-2 flex items-center gap-3 border-t border-zinc-200/60 dark:border-zinc-800/60 mt-2">
+        <div className="px-6 pb-4 pt-4 flex items-center gap-3 border-t border-zinc-200/60 dark:border-zinc-800/60 mt-2">
           {github && (
             <a
               href={github}
