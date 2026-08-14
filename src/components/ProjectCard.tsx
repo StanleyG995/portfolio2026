@@ -12,7 +12,7 @@ export default function ProjectCard({ title, tags, videoSrc }: ProjectCardProps)
   const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
-    // Uruchomienie odtwarzania od razu po zamontowaniu komponentu
+
     videoRef.current?.play().catch(err => console.log("Video autoplay blocked", err))
   }, [])
 
