@@ -25,7 +25,7 @@ export default function ProjectCard({ title, tags, videoSrc, projectStatus, gith
   }
 
   return (
-    <div className="group relative overflow-hidden rounded-3xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 flex flex-col justify-between">
+    <div className="group relative overflow-hidden rounded-3xl bg-zinc-100 dark:bg-zinc-900/40 border border-zinc-200 dark:border-zinc-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 flex flex-col justify-between">
       
       <div>
     
