@@ -1,36 +1,23 @@
-'use client';
+"use client"
 
-import { useRef, useState } from 'react';
+import { useRef, useEffect } from "react"
 
 interface ProjectCardProps {
-  title: string;
-  tags: string[];
-  videoSrc: string;
+  title: string
+  tags: string[]
+  videoSrc: string
 }
 
 export default function ProjectCard({ title, tags, videoSrc }: ProjectCardProps) {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [isHovered, setIsHovered] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null)
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-    videoRef.current?.play().catch(err => console.log("Video play blocked", err));
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-    if (videoRef.current) {
-      videoRef.current.pause();
-      videoRef.current.currentTime = 0;
-    }
-  };
+  useEffect(() => {
+    // Uruchomienie odtwarzania od razu po zamontowaniu komponentu
+    videoRef.current?.play().catch(err => console.log("Video autoplay blocked", err))
+  }, [])
 
   return (
-    <div 
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      className="group relative overflow-hidden rounded-3xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10"
-    >
+    <div className="group relative overflow-hidden rounded-3xl bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
       
       <div className="aspect-video w-full overflow-hidden">
         <video
@@ -39,14 +26,11 @@ export default function ProjectCard({ title, tags, videoSrc }: ProjectCardProps)
           loop
           muted
           playsInline
-          className={`h-full w-full object-cover transition-transform duration-700 ${
-            isHovered ? 'scale-105' : 'scale-100'
-          }`}
+          className="h-full w-full object-cover"
           poster="/video-placeholder.jpg"
         />
       </div>
 
-    
       <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/20 to-transparent p-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
         <div className="transform translate-y-4 transition-transform duration-300 group-hover:translate-y-0">
           <div className="flex gap-2 mb-3">
@@ -63,10 +47,6 @@ export default function ProjectCard({ title, tags, videoSrc }: ProjectCardProps)
         </div>
       </div>
       
-     
-      {!isHovered && (
-        <div className="absolute top-4 right-4 h-2 w-2 rounded-full bg-blue-500 animate-pulse" />
-      )}
     </div>
-  );
+  )
 }

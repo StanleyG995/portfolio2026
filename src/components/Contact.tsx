@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
-  const email = "hello@sgcode.dev";
+  const email = "hello@sgdev.com.pl";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
@@ -29,8 +29,8 @@ export default function Contact() {
       </div>
 
       <div className="mt-24 flex justify-center gap-12 text-zinc-500 font-mono text-sm">
-  <a href="https://linkedin.com/in/twoj-profil" className="hover:text-white transition-colors">LinkedIn</a>
-  <a href="https://github.com/twoj-github" className="hover:text-white transition-colors">GitHub</a>
+  <a href="https://www.linkedin.com/in/stanis%C5%82aw-goral-3b6436267/" className="hover:text-white transition-colors">LinkedIn</a>
+  <a href="https://github.com/StanleyG995" className="hover:text-white transition-colors">GitHub</a>
   <a href="/Stanislaw_G_CV.pdf" target="_blank" className="hover:text-blue-400 transition-colors border-b border-zinc-800">Download CV</a>
 </div>
     </section>
