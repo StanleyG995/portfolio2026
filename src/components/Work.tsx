@@ -28,21 +28,7 @@ export default function Work() {
           <ProjectCard
             title="Apartment Finder"
             tags={["Interactive SVG", "Next.js"]}
-            videoSrc="/videos/mapa.mp4"
-          />
-        </div>
-        <div className="md:col-span-4">
-          <ProjectCard
-            title="Business Dashboard"
-            tags={["React Table", "Auth", "Charts"]}
-            videoSrc="/videos/crm.mp4"
-          />
-        </div>
-        <div className="md:col-span-8">
-          <ProjectCard
-            title="The 2026 Portfolio"
-            tags={["Next.js 15", "Tailwind v4", "Framer"]}
-            videoSrc="/videos/portfolio.mp4"
+            videoSrc="/developer-thumbnail.webp"
           />
         </div>
       </div>
