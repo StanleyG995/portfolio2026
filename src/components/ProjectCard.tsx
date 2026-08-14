@@ -6,7 +6,6 @@ interface ProjectCardProps {
   title: string
   tags: string[]
   videoSrc: string
-  status: 'WIP' | 'Complete'
 }
 
 export default function ProjectCard({ title, tags, videoSrc }: ProjectCardProps) {
