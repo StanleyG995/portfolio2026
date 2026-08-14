@@ -13,7 +13,7 @@ export default function Work() {
             Selected Projects
           </p>
         </div>
-        <span className="text-zinc-600 font-mono text-sm">/ 001 — 004</span>
+        <span className="text-zinc-600 font-mono text-sm">/ 001 — 002</span>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
@@ -22,6 +22,9 @@ export default function Work() {
             title="3D Wardrobe Configurator"
             tags={["Three.js", "R3F", "Zustand"]}
             videoSrc="/Wardrobe.webm"
+            projectStatus='COMPLETE'
+            github='https://github.com/StanleyG995/wardrobe-configurator'
+            live='https://wardrobe-configurator-liard.vercel.app/'
           />
         </div>
         <div className="md:col-span-4">
@@ -29,6 +32,7 @@ export default function Work() {
             title="Apartment Finder"
             tags={["Interactive SVG", "Next.js"]}
             videoSrc="/developer-thumbnail.webm"
+            projectStatus='PLANNED'
           />
         </div>
       </div>
