@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="lg:col-span-8 flex flex-col justify-center">
           <div className="flex flex-col mb-6">
             <span className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-2">
-              Stanisław G. — Based in Poland
+              Stanisław Goral — Based in Poland
             </span>
             <span className="text-zinc-600 font-mono text-xs uppercase tracking-tight">
               Available for projects 2026
