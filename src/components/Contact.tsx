@@ -1,9 +1,9 @@
-'use client';
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
-  const email = "hello@sgdev.com.pl";
+  const email = "hello@sgoral.pl";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
@@ -12,27 +12,52 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-40 px-6 mx-auto text-center bg-black/40">
-      <h2 className="text-zinc-500 uppercase text-xs tracking-[0.3em] mb-8">Let's build something together.</h2>
-      
+    <section
+      id="contact"
+      className="py-40 px-6 mx-auto text-center bg-black/40"
+    >
+      <h2 className="text-zinc-500 uppercase text-xs tracking-[0.3em] mb-8">
+        Let's build something together.
+      </h2>
+
       <div className="group relative inline-block">
-        <button 
+        <button
           onClick={copyToClipboard}
           className="text-4xl md:text-7xl font-bold tracking-tighter hover:text-blue-500 transition-all duration-300"
         >
           {email}
         </button>
-        
-        <span className={`absolute -bottom-10 left-1/2 -translate-x-1/2 text-sm font-mono transition-opacity duration-300 ${copied ? 'opacity-100 text-blue-400' : 'opacity-0'}`}>
-          {copied ? 'Skopiowano!' : 'Kliknij, aby skopiować'}
+
+        <span
+          className={`absolute -bottom-10 left-1/2 -translate-x-1/2 text-sm font-mono transition-opacity duration-300 ${copied ? "opacity-100 text-blue-400" : "opacity-0"}`}
+        >
+          {copied ? "Copied!" : "Click to copy."}
         </span>
       </div>
 
       <div className="mt-24 flex justify-center gap-12 text-zinc-500 font-mono text-sm">
-  <a href="https://www.linkedin.com/in/stanis%C5%82aw-goral-3b6436267/" target="_blank" className="hover:text-white transition-colors">LinkedIn</a>
-  <a href="https://github.com/StanleyG995" target="_blank" className="hover:text-white transition-colors">GitHub</a>
-  <a href="/Stanislaw_G_CV.pdf" target="_blank" className="hover:text-blue-400 transition-colors border-b border-zinc-800">Download CV</a>
-</div>
+        <a
+          href="https://www.linkedin.com/in/stanis%C5%82aw-goral-3b6436267/"
+          target="_blank"
+          className="hover:text-white transition-colors"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/StanleyG995"
+          target="_blank"
+          className="hover:text-white transition-colors"
+        >
+          GitHub
+        </a>
+        <a
+          href="/Stanislaw_G_CV.pdf"
+          target="_blank"
+          className="hover:text-blue-400 transition-colors border-b border-zinc-800"
+        >
+          Download CV
+        </a>
+      </div>
     </section>
   );
 }
