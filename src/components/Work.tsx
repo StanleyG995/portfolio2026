@@ -22,7 +22,7 @@ export default function Work() {
             title="3D Wardrobe Configurator"
             tags={["Three.js", "R3F", "Zustand"]}
             videoSrc="/Wardrobe.webm"
-            projectStatus='COMPLETE'
+            projectStatus='IN PROGRESS'
             github='https://github.com/StanleyG995/wardrobe-configurator'
             live='https://wardrobe-configurator-liard.vercel.app/'
           />
