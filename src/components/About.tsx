@@ -33,9 +33,6 @@ export default function About() {
                 <span className="text-white font-semibold"> React and Next.js</span> to gain 
                 full technical control over performance and interactive experiences.
               </p>
-              <p className="text-sm border-l border-blue-500 pl-4 py-1 italic">
-                I don’t just build websites; I build digital products that feel premium and function flawlessly.
-              </p>
             </div>
           </div>
 
