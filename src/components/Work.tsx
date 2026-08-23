@@ -17,9 +17,10 @@ export default function Work() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-        <div className="md:col-span-8">
+        <div className="md:col-span-6">
           <ProjectCard
-            title="3D Wardrobe Configurator"
+            title="Bespoke 3D Wardrobe Configurator"
+            description="Interactive parametric customizer built with React Three Fiber, featuring real-time dimensional constraints, dynamic component management, and global state synchronization via Zustand."
             tags={["Three.js", "R3F", "Zustand"]}
             videoSrc="/Wardrobe.webm"
             projectStatus='IN PROGRESS'
@@ -27,9 +28,10 @@ export default function Work() {
             live='https://wardrobe-configurator-liard.vercel.app/'
           />
         </div>
-        <div className="md:col-span-4">
+        <div className="md:col-span-6">
           <ProjectCard
-            title="Apartment Finder"
+            title="Interactive PropTech Platform"
+            description="A cutting-edge platform for interactive property visualization and management."
             tags={["Interactive SVG", "Next.js"]}
             videoSrc="/developer-thumbnail.webm"
             projectStatus='PLANNED'
