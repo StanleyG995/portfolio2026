@@ -21,7 +21,7 @@ export default function Work() {
           <ProjectCard
             title="Bespoke 3D Wardrobe Configurator"
             description="Interactive parametric customizer built with React Three Fiber, featuring real-time dimensional constraints, dynamic component management, and global state synchronization via Zustand."
-            tags={["Three.js", "R3F", "Zustand"]}
+            tags={["Next.js", "TypeScript", "TailwindCSS", "Three.js", "R3F", "Zustand"]}
             videoSrc="/Wardrobe.webm"
             projectStatus='IN PROGRESS'
             github='https://github.com/StanleyG995/wardrobe-configurator'
@@ -32,7 +32,7 @@ export default function Work() {
           <ProjectCard
             title="Interactive PropTech Platform"
             description="A cutting-edge platform for interactive property visualization and management."
-            tags={["Interactive SVG", "Next.js"]}
+            tags={["Interactive SVG", "Next.js", "Supabase", "TailwindCSS", "Zustand", "TypeScript"]}
             videoSrc="/developer-thumbnail.webm"
             projectStatus='PLANNED'
           />
