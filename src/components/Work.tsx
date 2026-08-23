@@ -23,7 +23,7 @@ export default function Work() {
             description="Interactive parametric customizer built with React Three Fiber, featuring real-time dimensional constraints, dynamic component management, and global state synchronization via Zustand."
             tags={["Next.js", "TypeScript", "TailwindCSS", "Three.js", "R3F", "Zustand"]}
             videoSrc="/Wardrobe.webm"
-            projectStatus='IN PROGRESS'
+            projectStatus='COMPLETE'
             github='https://github.com/StanleyG995/wardrobe-configurator'
             live='https://wardrobe-configurator-liard.vercel.app/'
           />
