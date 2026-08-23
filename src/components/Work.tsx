@@ -33,8 +33,9 @@ export default function Work() {
             title="Interactive PropTech Platform"
             description="A cutting-edge platform for interactive property visualization and management."
             tags={["Interactive SVG", "Next.js", "Supabase", "TailwindCSS"]}
-            videoSrc="/developer-thumbnail.webm"
-            projectStatus='PLANNED'
+            videoSrc="/proptech-thumbnail.webm"
+            projectStatus='IN PROGRESS'
+            github='https://github.com/StanleyG995/interactive-proptech-platform'
           />
         </div>
       </div>
