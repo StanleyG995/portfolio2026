@@ -51,7 +51,7 @@ export default function Contact() {
           GitHub
         </a>
         <a
-          href="/Stanislaw_G_CV.pdf"
+          href="/Stanislaw_Goral_CV.pdf"
           target="_blank"
           className="hover:text-blue-400 transition-colors border-b border-zinc-800"
         >
