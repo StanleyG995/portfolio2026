@@ -33,9 +33,6 @@ export default function About() {
                 <span className="text-white font-semibold"> React and Next.js</span> to gain 
                 full technical control over performance and interactive experiences.
               </p>
-              <p className="text-sm border-l border-blue-500 pl-4 py-1 italic">
-                I don’t just build websites; I build digital products that feel premium and function flawlessly.
-              </p>
             </div>
           </div>
 
@@ -59,9 +56,7 @@ export default function About() {
             <div className="bg-blue-600/10 border border-blue-500/20 p-8 rounded-3xl backdrop-blur-md">
               <h4 className="text-blue-400 font-bold mb-2 text-lg italic">The Next Step</h4>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                Currently immersing myself in <span className="text-white">Three.js</span> and 
-                <span className="text-white font-bold"> React Three Fiber</span> to create 
-                next-level spatial interfaces.
+                Currently deepening my expertise in modern <span className="text-white font-semibold">Next.js</span> architectures, scalable state management, and full-stack integration to build high-performance, production-ready web applications.
               </p>
             </div>
           </div>
