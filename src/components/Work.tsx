@@ -32,8 +32,8 @@ export default function Work() {
           <ProjectCard
             title="Interactive PropTech Platform"
             description="A cutting-edge platform for interactive property visualization and management."
-            tags={["Interactive SVG", "Next.js", "Supabase", "TailwindCSS"]}
-            videoSrc="/proptech-thumbnail.webm"
+            tags={["Interactive SVG", "Next.js", "Tanstack Query", "Supabase"]}
+            videoSrc="/proptech-thumbnail-new.webm"
             projectStatus='IN PROGRESS'
             github='https://github.com/StanleyG995/interactive-proptech-platform'
           />
