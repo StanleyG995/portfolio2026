@@ -23,19 +23,20 @@ export default function Work() {
             description="Interactive parametric customizer built with React Three Fiber, featuring real-time dimensional constraints, dynamic component management, and global state synchronization via Zustand."
             tags={["Next.js", "TailwindCSS", "Three.js", "Zustand"]}
             videoSrc="/Wardrobe.webm"
-            projectStatus='COMPLETE'
-            github='https://github.com/StanleyG995/wardrobe-configurator'
-            live='https://wardrobe-configurator-liard.vercel.app/'
+            projectStatus="COMPLETE"
+            github="https://github.com/StanleyG995/wardrobe-configurator"
+            live="https://wardrobe-configurator-liard.vercel.app/"
           />
         </div>
         <div className="md:col-span-6">
           <ProjectCard
-            title="Interactive PropTech Platform"
-            description="A cutting-edge platform for interactive property visualization and management."
+            title="WIP: Interactive PropTech Platform"
+            description="A cutting-edge platform for interactive property visualization and management. Note: Work in progress – currently features desktop view and data sorting."
             tags={["Interactive SVG", "Next.js", "Supabase", "TailwindCSS"]}
             videoSrc="/proptech-thumbnail.webm"
-            projectStatus='IN PROGRESS'
-            github='https://github.com/StanleyG995/interactive-proptech-platform'
+            projectStatus="IN PROGRESS"
+            github="https://github.com/StanleyG995/interactive-proptech-platform"
+            live="https://interactive-proptech-platform-git-fcf5fe-stanleyg995s-projects.vercel.app"
           />
         </div>
       </div>
